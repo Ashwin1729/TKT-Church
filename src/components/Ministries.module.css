@@ -1,0 +1,164 @@
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.groupParent {
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  height: 3800px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+.upperAnm {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.upperAnm > h3 {
+  margin: 70px 10px;
+}
+
+.product_showcase {
+  width: 100%;
+  height: 750px;
+  position: absolute;
+}
+
+.showcase_wrapper {
+  min-height: 70%;
+}
+
+.showcase_wrapper > img {
+  width: auto;
+  height: 80%;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+}
+
+.overlay1 {
+  transform: translate(-120%, 15%) rotate(-15deg);
+  z-index: 99;
+  -webkit-animation: rotate-out-2-ccw 1s ease-out both;
+  animation: rotate-out-2-ccw 1s ease-out both;
+}
+
+.overlay2 {
+  transform: translate(-50%, 5%);
+  z-index: 100;
+  -webkit-animation: scale-in-bottom 1s ease-out both;
+  animation: scale-in-bottom 1s ease-out both;
+}
+
+.overlay3 {
+  transform: translate(20%, 15%) rotate(15deg);
+  z-index: 99;
+  -webkit-animation: rotate-out-2-cw 1s ease-out both;
+  animation: rotate-out-2-cw 1s ease-out both;
+}
+
+/* Left Card Animation */
+
+@-webkit-keyframes rotate-out-2-ccw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: translate(-120%, 15%) rotate(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(-15deg);
+    transform: translate(-120%, 15%) rotate(-15deg);
+    opacity: 1;
+  }
+}
+@keyframes rotate-out-2-ccw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: translate(-120%, 15%) rotate(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(-15deg);
+    transform: translate(-120%, 15%) rotate(-15deg);
+    opacity: 1;
+  }
+}
+
+/* Right Card Animation */
+
+@-webkit-keyframes rotate-out-2-cw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: translate(20%, 15%) rotate(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(15deg);
+    transform: translate(20%, 15%) rotate(15deg);
+    opacity: 1;
+  }
+}
+@keyframes rotate-out-2-cw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: translate(20%, 15%) rotate(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(15deg);
+    transform: translate(20%, 15%) rotate(15deg);
+    opacity: 1;
+  }
+}
+
+/* Center Card Animation */
+
+@-webkit-keyframes scale-in-bottom {
+  0% {
+    -webkit-transform: scale(0);
+    transform: translate(-50%, 5%) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: translate(-50%, 5%) scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-bottom {
+  0% {
+    -webkit-transform: scale(0);
+    transform: translate(-50%, 5%) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: translate(-50%, 5%) scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 1;
+  }
+}

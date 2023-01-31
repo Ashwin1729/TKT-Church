@@ -1,0 +1,250 @@
+.frameParent9 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 374px;
+  overflow: hidden;
+  font-size: small;
+}
+
+.frameParent10 {
+  position: absolute;
+  top: 59px;
+  left: 814px;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.quickLinksParent {
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+
+.quickLinks {
+  font-weight: 600;
+}
+
+.exploreUsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+
+.community,
+.quickLinks {
+  position: relative;
+  line-height: 110%;
+}
+
+.followUsParent {
+  width: 158px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+
+.followUsParent,
+.frameParent10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.image49Icon {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.image49Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+
+.image43Traced {
+  position: relative;
+  width: 20.01px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.image43TracedWrapper {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.image44Traced {
+  position: relative;
+  width: 10.86px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.image44TracedWrapper {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.vectorIcon,
+.vectorIcon1 {
+  position: relative;
+  width: 25px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.vectorIcon1 {
+  width: 23px;
+  height: 19px;
+}
+
+.frameWrapper3 {
+  position: absolute;
+  top: 245px;
+  left: 428px;
+  border-radius: 22px;
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.image49Icon {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.image24Icon {
+  position: absolute;
+  top: 59px;
+  left: 145px;
+  width: 184px;
+  height: 127px;
+  object-fit: cover;
+}
+
+.clockTowerSecondContainer {
+  position: relative;
+  line-height: 198.5%;
+  display: inline-block;
+  width: 284px;
+}
+
+.clockTowerSecondBazaarMaruParent,
+.frameWrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frameWrapper4 {
+  border-radius: 37px;
+  background-color: var(--color-gray-200);
+  width: 183px;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+}
+
+.clockTowerSecondBazaarMaruParent {
+  position: absolute;
+  top: 56px;
+  left: 428px;
+  gap: 21px;
+}
+
+.loremIpsumDolor,
+.turpisEgetAenean {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.navigationMapPinGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.navigationMapPin1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.viewOnMaps {
+  position: relative;
+  line-height: 140%;
+}
+
+.cWrapper {
+  border-radius: 21px;
+  border: 0.7px solid var(--color-white);
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  padding: 6.999999523162842px;
+  justify-content: center;
+}
+
+.cIcon {
+  position: relative;
+  width: 8.4px;
+  height: 9.8px;
+  flex-shrink: 0;
+}
+
+.frameParent16 {
+  position: absolute;
+  top: 212px;
+  left: 145px;
+  justify-content: flex-start;
+  gap: 9px;
+  font-size: 16px;
+}
+
+.cWrapper,
+.frameParent16 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

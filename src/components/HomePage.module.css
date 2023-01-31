@@ -557,13 +557,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 698px;
-  object-fit: cover;
+  height: 735px;
+  object-fit: contain;
 }
 
 .s5a05191Icon {
   width: 100%;
-  height: 960px;
+  height: 735px;
 }
 
 .frameChild,
@@ -582,7 +582,7 @@
 .rectangleParent {
   position: absolute;
   top: 640px;
-  left: 434px;
+  left: 511px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

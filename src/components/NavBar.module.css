@@ -1,0 +1,36 @@
+.homeParent {
+  position: absolute;
+  top: 45px;
+  left: 398px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px 80px;
+  gap: var(--gap-xs);
+}
+
+.frameGroup,
+.image23Icon {
+  position: absolute;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.image23Icon {
+  left: 146px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.frameGroup {
+  left: 0;
+  background-color: var(--color-black);
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
