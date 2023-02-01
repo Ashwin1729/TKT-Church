@@ -16,9 +16,11 @@ body {
   --color-gray-100: #0f0f0f;
   --color-gray-200: rgba(255, 255, 255, 0.05);
   --color-gray-300: rgba(0, 0, 0, 0.2);
+  --color-gray-400: rgba(255, 255, 255, 0.6);
   --color-black: #000;
   --color-white: #fff;
   --color-orange: #febb24;
+  --color-blue: #6a24fe;
 
   --gap-2xs: 11px;
   --gap-xs: 12px;
@@ -28,6 +30,7 @@ body {
   --gap-xl: 130px;
 
   --padding-md: 10px;
+  --padding-sm: 5px;
 
   --br-sm: 32px;
   --br-md: 50px;

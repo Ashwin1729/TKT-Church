@@ -2,6 +2,16 @@ import React from "react";
 import Footer from "./Footer";
 import styles from "./HomePage.module.css";
 import NavBar from "./NavBar";
+import SimpleImageSlider from "react-simple-image-slider";
+
+const sliderImages = [
+  {
+    url: "../homepage.png",
+  },
+  {
+    url: "../image-55@2x.png",
+  },
+];
 
 const HomePage = () => {
   return (
@@ -228,22 +238,33 @@ const HomePage = () => {
         </div>
         <Footer />
         <div className={styles.image55Parent}>
-          <img className={styles.image55Icon} alt="" src="../image-55@2x.png" />
-          <img
-            className={styles.s5a05191Icon}
-            alt=""
-            src="../-s5a0519-1@2x.png"
+          <SimpleImageSlider
+            style={{
+              position: "absolute",
+              top: "0",
+              left: "0",
+              width: "100%",
+              height: "700px",
+              objectFit: "contain",
+            }}
+            images={sliderImages}
+            showBullets={true}
+            showNavs={true}
+            width={"100%"}
+            height={700}
+            autoPlay={true}
+            slideDuration={1}
           />
-          <div className={styles.rectangleParent}>
+          {/* <div className={styles.rectangleParent}>
             <div className={styles.frameChild} />
             <div className={styles.frameItem} />
             <div className={styles.frameItem} />
             <div className={styles.frameItem} />
             <div className={styles.frameItem} />
             <div className={styles.frameItem} />
-          </div>
+          </div> */}
         </div>
-        <div className={styles.arrowCaretCircleLeftWrapper}>
+        {/* <div className={styles.arrowCaretCircleLeftWrapper}>
           <img
             className={styles.arrowCaretCircleLeft}
             alt=""
@@ -256,7 +277,7 @@ const HomePage = () => {
             alt=""
             src="../arrow--caret-circle-right.svg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
